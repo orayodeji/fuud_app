@@ -34,6 +34,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^1.0.3
+  adaptive_action_sheet: ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -83,6 +84,10 @@ flutter:
     - assets/landing.png
     - assets/sidebar-bg.png
     - assets/flag.png
+    - assets/spanish.png
+    - assets/portuguese.png
+    - assets/french.png
+    - assets/german.png
     - assets/face-one.jpg
     - assets/sl-one.jpeg
     - assets/sl-two.jpeg

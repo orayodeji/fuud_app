@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'package:flutter/material.dart';
 import 'package:fuud_layout/model/food_model.dart';
 import 'package:fuud_layout/widgets/app_header.dart';
