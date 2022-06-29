@@ -5,7 +5,6 @@ import 'package:fuud_layout/pages/home_page.dart';
 import 'package:fuud_layout/pages/orders_page.dart';
 import 'package:fuud_layout/pages/profile_page.dart';
 import 'package:fuud_layout/pages/restaurants_page.dart';
-import 'package:fuud_layout/pages/search_page.dart';
 
 class NavigationBottomBar extends StatefulWidget {
   NavigationBottomBar({Key? key, required int this.currentIndex})
@@ -60,10 +59,10 @@ class _NavigationBottomBarState extends State<NavigationBottomBar> {
         Navigator.push(context,
             MaterialPageRoute(builder: (context) => RestaurantsPage()));
         break;
-      case 3:
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => SearchPage()));
-        break;
+      // case 3:
+      //   Navigator.push(
+      //       context, MaterialPageRoute(builder: (context) => SearchPage()));
+      //   break;
       case 4:
         Navigator.push(
             context,
