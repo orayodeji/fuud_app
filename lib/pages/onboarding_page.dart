@@ -49,6 +49,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           children: [
                             SizedBox(height: 90),
                             Image.asset("assets/Logo.png"),
+                            // Image(image: AssetImage('assets/Logo.png'))
                           ],
                         ),
                       ),
